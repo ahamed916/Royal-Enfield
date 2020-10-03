@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bunnys ENFIELD Showroom </title>
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="icon"type="image/png"href="img/favicon.jpg">
+ </head>
+ <body>
+  <style>
+  #mySidenav a {
+  position: fixed;
+  left: -90px;
+  transition: 0.3s;
+  padding: 15px;
+  width: 150px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  border-radius: 0 5px 5px 0;
+  float: left;
+  margin-top: 400px;
+}
+
+#mySidenav a:hover {
+  left: 0;
+}
+
+#index {
+  top: 20px;
+  background-color: #4CAF50;
+}
+
+#cycle {
+  top: 80px;
+  background-color: #2196F3;
+}
+
+#locate {
+  top: 140px;
+  background-color: #f44336;
+}
+
+#world {
+  top: 200px;
+  background-color: #555
+}
+</style>
+  <style>
+* {box-sizing: border-box}
+body{
+  background-position: center;
+  background: cover;
+}
+
+
+/* style the container */
+.container {
+  position: relative;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px 0 30px 0;
+}
+
+/* style inputs and link buttons */
+input,
+.btn {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  margin: 5px 0;
+  opacity: 0.85;
+  display: inline-block;
+  font-size: 17px;
+  line-height: 20px;
+  text-decoration: none; /* remove underline from anchors */
+}
+
+input:hover,
+.btn:hover {
+  opacity: 1;
+}
+
+/* add appropriate colors to fb, twitter and google buttons */
+.fb {
+  background-color: #3B5998;
+  color: white;
+}
+
+.twitter {
+  background-color: #55ACEE;
+  color: white;
+}
+
+.google {
+  background-color: #dd4b39;
+  color: white;
+}
+
+/* style the submit button */
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Two-column layout */
+.col {
+  float: left;
+  width: 50%;
+  margin: auto;
+  padding: 0 50px;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* vertical line */
+.vl {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  border: 2px solid #ddd;
+  height: 175px;
+}
+
+/* text inside the vertical line */
+.inner {
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #f1f1f1;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  padding: 8px 10px;
+}
+
+/* hide some text on medium and large screens */
+.hide-md-lg {
+  display: none;
+}
+
+/* bottom container */
+.bottom-container {
+  text-align: center;
+  background-color: #666;
+  border-radius: 0px 0px 4px 4px;
+}
+
+/* Responsive layout - when the screen is less than 650px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 650px) {
+  .col {
+    width: 100%;
+    margin-top: 0;
+  }
+  /* hide the vertical line */
+  .vl {
+    display: none;
+  }
+  /* show the hidden text on small screens */
+  .hide-md-lg {
+    display: block;
+    text-align: center;
+  }
+}
+</style>
+  <div id="navbar">
+      <nav>
+        <img src="img/logo.png" width="200" height="100">
+        <ul>
+          <li><a href="index.html">Index</a></li>
+          <li><a href="motorcycle.html">Motorcycles</a>></li>
+          <li><a href="locate.html">Locate us</a>></li>
+          <li><a href="ourworld.html"class = "active">Our World</a>></li>
+        </ul>
+        <div style="margin-top: -100px; font-size: 30px;">
+         <p><br><b>User Review</b></br></p>
+       </div>
+        <div>
+          <img style="width: 25%; height: 25%;float: left; margin-right: 5px; line-height: 5px;"src="img/profile.jpg">
+        </div>
+        <div style="line-height: 25px; margin-top: 20px; margin-left: 50px;color: white;">
+        <P><b>I love Royal Enfield and I'm fascinated by the quality, design, beating, torque, power that is offered by every Royal Enfield out there. As a matter of fact, there is no one who doesn't like Enfield bikes these days. But, my love for Royal Enfield doesn't end there, it literally flew out of the clouds and landed a desire in my heart to work for Royal Enfield.The Enfield Cycle Company is responsibl e for the design and original production of the Royal Enfield Bullet, the longest-lived motorcycle design in history. Royal Enfield's spare parts operation was sold to Velocette in 1967, which benefitted from the arrangement for three years until their closure in early 1971.</b></P>
+      </div>
+      <div style="line-height: 30px; margin-top: 200px; margin-right: 20px; color: white;">
+      </div>
+    </div>
+    <div id="main" style="background-image: url(img/background1.jpg)">
+    </div>
+    <div>
+      <p>
+        <b>Login For Further : </b>
+      </p>
+    </div>
+</nav>
+</div><div class="container">
+  <form action="/action_page.php">
+    <div class="row">
+      <h2 style="text-align:center">Login with Social Media or Manually</h2>
+      <div class="vl">
+        <span class="vl-innertext">or</span>
+      </div>
+
+      <div class="col">
+        <a href="https://www.facebook.com/" class="fb btn">
+          <i class="fa fa-facebook fa-fw"></i> Login with Facebook
+        </a>
+        <a href="https://twitter.com/" class="twitter btn">
+          <i class="fa fa-twitter fa-fw"></i> Login with Twitter
+        </a>
+        <a href="https://www.google.com/" class="google btn">
+          <i class="fa fa-google fa-fw"></i> Login with Google+
+        </a>
+      </div>
+
+      <div class="col">
+        <div class="hide-md-lg">
+          <p>Or sign in manually:</p>
+        </div>
+
+        <input type="text" name="username" placeholder="Username" required>
+        <input type="password" name="password" placeholder="Password" required>
+        <input type="submit" value="Login">
+      </div>
+
+    </div>
+  </form>
+</div>
+
+<div class="bottom-container">
+  <div class="row">
+    <div class="col">
+      <a href="#" style="color:white" class="btn">Sign up</a>
+    </div>
+    <div class="col">
+      <a href="#" style="color:white" class="btn">Forgot password?</a>
+    </div>
+  </div>
+</div>
+<div id="mySidenav" class="sidenav" style="">
+  <a href="index.html" id="index">Index</a>
+  <a href="motorcycle.html" id="cycle">MotorCycles</a>
+  <a href="locate.html" id="locate">Locate Us</a>
+  <a href="ourworld.html" id="world">Our World</a>
+</div>
+  </body>
+</html>
